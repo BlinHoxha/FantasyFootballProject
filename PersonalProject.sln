@@ -4,12 +4,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "PersonalProject\WebApi.csproj", "{31CD1422-B929-43D3-B56F-D546F6F00A33}"
+	ProjectSection(ProjectDependencies) = postProject
+		{50947010-CF0C-4131-A72C-D271BFFF9CE6} = {50947010-CF0C-4131-A72C-D271BFFF9CE6}
+		{917D0A92-C2A7-413C-A109-8BD5C71BE0CE} = {917D0A92-C2A7-413C-A109-8BD5C71BE0CE}
+		{A33F7DAB-A6D4-4428-915E-0A0CED35C8EA} = {A33F7DAB-A6D4-4428-915E-0A0CED35C8EA}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{50947010-CF0C-4131-A72C-D271BFFF9CE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{917D0A92-C2A7-413C-A109-8BD5C71BE0CE} = {917D0A92-C2A7-413C-A109-8BD5C71BE0CE}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A33F7DAB-A6D4-4428-915E-0A0CED35C8EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{917D0A92-C2A7-413C-A109-8BD5C71BE0CE} = {917D0A92-C2A7-413C-A109-8BD5C71BE0CE}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{917D0A92-C2A7-413C-A109-8BD5C71BE0CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework", "Framework\Framework.csproj", "{917D0A92-C2A7-413C-A109-8BD5C71BE0CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
