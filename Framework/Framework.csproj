@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Authentication\Utils\" />
+    <Folder Include="CustomServices\Email\" />
+    <Folder Include="CustomServices\File\" />
+    <Folder Include="CustomServices\Notification\" />
+    <Folder Include="CustomServices\Phone\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Logging\" />
+    <Folder Include="Extentions\" />
+    <Folder Include="Client\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Constants\" />
+    <Folder Include="Caching\" />
+    <Folder Include="CloudDesire\" />
+    <Folder Include="Identity\" />
+    <Folder Include="Pagination\FIltering\" />
+    <Folder Include="Pagination\Sorting\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Tests\" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="11.9.2" />
+		<PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="6.0.26" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.26" />
+		<PackageReference Include="Microsoft.AspNetCore.OData" Version="8.2.5" />
+		<PackageReference Include="Microsoft.Data.OData" Version="5.8.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.26" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+
+
+</Project>
