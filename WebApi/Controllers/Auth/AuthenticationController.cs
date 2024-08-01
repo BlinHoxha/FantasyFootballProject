@@ -2,11 +2,8 @@
 
 namespace WebApi.Controllers.Auth
 {
-    public class AuthenticationController : Controller
+    public class AuthenticationController : ControllerBase
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+      
     }
 }

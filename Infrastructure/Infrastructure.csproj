@@ -10,9 +10,8 @@
     <Folder Include="Mapping\" />
     <Folder Include="Repositories\Interface\" />
     <Folder Include="Repositories\Implementation\" />
-    <Folder Include="Services\Interface\" />
-    <Folder Include="Services\Implementation\" />
-    <Folder Include="Services\Custom\" />
+    <Folder Include="Services\BusinessLogic\Implementation\" />
+    <Folder Include="Services\BusinessLogic\Interface\" />
   </ItemGroup>
 
   <ItemGroup>
