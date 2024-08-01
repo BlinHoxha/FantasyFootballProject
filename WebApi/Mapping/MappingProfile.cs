@@ -1,4 +1,4 @@
-﻿namespace WebApi.Mapping
+﻿namespace API.Mapping
 {
     public class MappingProfile
     {

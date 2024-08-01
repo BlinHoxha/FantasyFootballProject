@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace WebApi.Controllers.Auth
+namespace API.Controllers.Auth
 {
     public class AuthenticationController : ControllerBase
     {
